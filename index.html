@@ -2,6 +2,13 @@
 <title>Webstagram</title>
 <a class="webstagram-bookmark-link"
    target="_self"
-   href="javascript:(function(){var%20script=document.createElement('script');script.src='https://rawgit.com/MaxWofford/webstagram/master/webstagram.js.'document.body.appendChild(script);})();">
+   href="javascript:(function(){
+         var css = document.createElement('link');
+         jsCode.setAttribute('href', '//raw.githubusercontent.com/MaxWofford/webstagram/master/bin/webstagram.css');
+         document.body.appendChild(css);
+         var js = document.createElement('script');
+         jsCode.setAttribute('src', '//raw.githubusercontent.com/MaxWofford/webstagram/master/bin/webstagram.js');
+         document.body.appendChild(js);
+         })();">
 Webstagram filters
 </a>
