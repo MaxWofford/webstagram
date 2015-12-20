@@ -1,13 +1,14 @@
 <!doctype html>
 <title>Webstagram</title>
-<a class="webstagram-bookmark-link"
+<a
    target="_self"
    href="javascript:(function(){
          var css = document.createElement('link');
-         jsCode.setAttribute('href', '//raw.githubusercontent.com/MaxWofford/webstagram/master/bin/webstagram.css');
+         css.setAttribute('rel', 'stylesheet');
+         css.setAttribute('href', 'https://cdn.rawgit.com/MaxWofford/webstagram/master/webstagram.css');
          document.body.appendChild(css);
          var js = document.createElement('script');
-         jsCode.setAttribute('src', '//raw.githubusercontent.com/MaxWofford/webstagram/master/bin/webstagram.js');
+         js.setAttribute('src', 'https://cdn.rawgit.com/MaxWofford/webstagram/master/webstagram.js');
          document.body.appendChild(js);
          })();">
 Webstagram filters
