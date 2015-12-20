@@ -1,0 +1,3 @@
+Instagram filters recreated using CSS by Nick Georgiou (http://designpieces.com/2014/09/instagram-filters-css3-effects)
+
+Bookmarklet idea from Zach Latta (zachlatta.com)
